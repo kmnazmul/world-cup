@@ -17,10 +17,11 @@
 .greatest-banner {
     display: flex;
     width: 992px;
+    height: 520px;
     background-color: #161616;
     padding: 55px;
     padding-bottom: 0px;
-    margin-top: 60px;
+    margin: 60px auto 0;
     border-radius: 30px;
 }
 
@@ -61,8 +62,9 @@
 }
 
 .greatest-banner .img {
-    width: 40%;
-    padding-top: 77px;
+    width: 581px;
+    /* height: 613px; */
+    /* padding-top: 17px; */
     padding-left: 75px;
 }
 
@@ -70,7 +72,7 @@
     width: 100%;
 }
 
-/* upcoming prat start */
+/* world-cup prat start */
 
 #world-cup {
     padding: 130px 0;
@@ -129,8 +131,8 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.world-cup-item2 .all-group .blog{
-    width:230px;
+.world-cup-item2 .all-group .blog {
+    width: 230px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     margin-top: 30px;
@@ -139,9 +141,7 @@
 
 }
 
-.world-cup-item2 .all-group .blog img{
-   
-}
+.world-cup-item2 .all-group .blog img {}
 
 .world-cup-item2 .all-group .blog-img {
     margin-bottom: 20px;
@@ -185,12 +185,10 @@
     font-size: 18px;
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
-    
+
 }
 
-.time-sence {
-   
-}
+.time-sence {}
 
 .icon {
     display: flex;
@@ -330,7 +328,7 @@
     width: 100%;
 }
 
-/* upcoming prat start */
+/* upcoming-match-blog prat start */
 
 #upcoming-match-blog {
     padding: 130px 0;
@@ -393,8 +391,8 @@
 
 }
 
-.upcoming-match .all-group-match .match{
-    width:230px;
+.upcoming-match .all-group-match .match {
+    width: 230px;
 
     border: 2px solid #E8E8E8;
     border-radius: 10px;
@@ -402,7 +400,7 @@
     margin-left: 24px;
     text-align: center;
     padding: 53px 0 40px 0;
-    
+
 }
 
 .match-img {
@@ -583,7 +581,7 @@
 /////////////////  All Group -part start//////////////
 ====================================================================== */
 /* all-group-part start */
-/* upcoming banner -part start */
+
 
 
 .allgroup-banner {
@@ -642,7 +640,7 @@
     width: 100%;
 }
 
-/* all-group- prat start */
+/* all-group-blog prat start */
 
 #all-group-blog {
     padding: 130px 0;
@@ -929,4 +927,1879 @@
     text-align: center;
     margin-top: 50px;
     justify-content: space-around;
+}
+
+/* ===================================================
+/////         tab view                        ///////
+====================================================== */
+/* mobile view */
+
+
+/* mobile view start*/
+@media screen and (max-width: 565.98px) {
+
+    /* index.html/blog */
+    /* world cup banner prat css */
+    .container {
+        width: 100%;
+
+    }
+
+    #greatest-part {
+        margin: 15px;
+    }
+
+    .greatest-banner {
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        background-color: #161616;
+        padding: 0;
+
+        margin-top: 60px;
+        border-radius: 30px;
+
+    }
+
+    .greatest-banner .text {
+        /* width: 50%; */
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .greatest-banner .text .section-title {
+        width: 148px;
+
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        color: #FFFFFF;
+
+    }
+
+    .greatest-banner .text .section-detail {
+
+        display: none;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .greatest-banner .text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .greatest-banner .text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .greatest-banner .img {
+        width: 40%;
+        /* padding-top: 77px;
+        padding-left: 75px; */
+    }
+
+    .greatest-banner .img img {
+        /* width: 100%; */
+    }
+
+    /* world-cup prat start */
+
+    #world-cup {
+        padding: 130px 0;
+    }
+
+    .world-cup-item2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .world-cup-item2 .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 30px;
+
+    }
+
+    .world-cup-item2 .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .world-cup-item2 .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+    .world-cup-item2 .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .world-cup-item2 .all-group {}
+
+    .world-cup-item2 .all-group .blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .world-cup-item2 .all-group .blog {
+        width: 230px;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+    }
+
+    .world-cup-item2 .all-group .blog img {}
+
+    .world-cup-item2 .all-group .blog-img {
+        margin-bottom: 20px;
+    }
+
+    .transfer {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        padding-top: 19px;
+        font-size: 14px;
+    }
+
+    .icon {
+        padding-bottom: 20px;
+    }
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+
+    }
+
+    .time-sence {}
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        /* margin-right: 30px; */
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    #goal-part {
+        display: none;
+    }
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+
+    /* =========================================================
+  //////////////  UpComing html Css Start////////////////
+  ======================================================== */
+    /* upcoming banner -part start */
+
+
+    .upcoming-banner {
+        display: flex;
+        width: 992px;
+        background-color: #161616;
+        padding: 55px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .upcoming-banner .upcoming-text {
+        width: 50%;
+    }
+
+    .upcoming-banner .upcoming-text .section-title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+
+    .upcoming-banner .upcoming-text .section-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .upcoming-banner .upcoming-text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .upcoming-banner .upcoming-text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .upcoming-banner .img {
+        width: 40%;
+        padding-top: 77px;
+        padding-left: 75px;
+    }
+
+    .upcoming-banner .img img {
+        width: 100%;
+    }
+
+    /* upcoming-match-blog prat start */
+
+    #upcoming-match-blog {
+        padding: 130px 0;
+    }
+
+    .upcoming-match {
+        display: flex;
+
+    }
+
+
+
+    .upcoming-match .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 20px;
+
+
+    }
+
+    .upcoming-match .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .upcoming-match .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+
+
+    .upcoming-match .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .upcoming-match .all-group-match {}
+
+    .match-times {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .upcoming-match .all-group-match .match {
+        width: 230px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 24px;
+        text-align: center;
+        padding: 53px 0 40px 0;
+
+    }
+
+    .match-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+
+    .match-img img {
+        width: 40%;
+    }
+
+    .vs {
+        display: inline-block;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #161616;
+
+    }
+
+    .match-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .match-schedule {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4D4D4D;
+    }
+
+    .blog {
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .transfer {
+        width: 100px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {}
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+        margin-left: 10px;
+    }
+
+    .time-sence {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    /* =====================================================================
+/////////////////  All Group -part start//////////////
+====================================================================== */
+    /* all-group-part start */
+
+
+
+    .allgroup-banner {
+        display: flex;
+        width: 992px;
+        background-color: #161616;
+        padding: 55px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .allgroup-banner .allgroup-text {
+        width: 50%;
+    }
+
+    .allgroup-banner .allgroup-text .section-title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+
+    .allgroup-banner .allgroup-text .section-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .allgroup-banner .allgroup-text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .allgroup-banner .allgroup-text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .allgroup-banner .img {
+        width: 40%;
+        padding-top: 77px;
+        padding-left: 75px;
+    }
+
+    .allgroup-banner .img img {
+        width: 100%;
+    }
+
+    /* all-group-blog prat start */
+
+    #all-group-blog {
+        padding: 130px 0;
+    }
+
+    .all-group-button {
+        display: flex;
+
+    }
+
+
+
+    .all-group-button .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 20px;
+
+    }
+
+    .all-group-button .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .all-group-button .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+    .all-group-button .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .all-group-button .all-group-match {}
+
+    .match-times {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .group {
+        border: 2px solid #E8E8E8;
+        border-radius: 5px;
+
+        width: 230px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+
+        margin-left: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .group-title {
+        background: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 8px 0;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .match-flog {
+        display: flex;
+        align-items: center;
+        background-color: #E8E8E8;
+        ;
+        /* background: #eeeee4; */
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .match-flog img {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .match-flog .country-name {
+        padding-left: 20px;
+
+    }
+
+    .match {
+        width: 300px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+
+        margin-left: 24px;
+        text-align: center;
+        padding: 53px 0 40px 0;
+
+    }
+
+    .match-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+
+    .match-img img {
+        width: 40%;
+    }
+
+    .vs {
+        display: inline-block;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #161616;
+
+    }
+
+    .match-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .match-schedule {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4D4D4D;
+    }
+
+    .blog {
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .transfer {
+        width: 100px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {}
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+        margin-left: 10px;
+    }
+
+    .time-sence {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    /* end */
+}
+
+/* moblie view end */
+
+
+/* tab device index.html /blog  */
+@media screen and (min-width: 768px) and (max-width: 992.99px) {
+    /* index.html/blog */
+    /* world cup banner prat css */
+
+    .greatest-banner {
+        display: flex;
+        width: 992px;
+        background-color: #161616;
+        padding: 55px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        border-radius: 30px;
+
+    }
+
+    .greatest-banner .text {
+        width: 50%;
+    }
+
+    .greatest-banner .text .section-title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+
+    .greatest-banner .text .section-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .greatest-banner .text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .greatest-banner .text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .greatest-banner .img {
+        width: 40%;
+        padding-top: 77px;
+        padding-left: 75px;
+    }
+
+    .greatest-banner .img img {
+        width: 100%;
+    }
+
+    /* world-cup prat start */
+
+    #world-cup {
+        padding: 130px 0;
+    }
+
+    .world-cup-item2 {
+        display: flex;
+
+    }
+
+
+
+    .world-cup-item2 .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 30px;
+
+    }
+
+    .world-cup-item2 .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .world-cup-item2 .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+    .world-cup-item2 .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .world-cup-item2 .all-group {}
+
+    .world-cup-item2 .all-group .blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .world-cup-item2 .all-group .blog {
+        width: 230px;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+
+    }
+
+    .world-cup-item2 .all-group .blog img {}
+
+    .world-cup-item2 .all-group .blog-img {
+        margin-bottom: 20px;
+    }
+
+    .transfer {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        padding-top: 19px;
+        font-size: 14px;
+    }
+
+    .icon {
+        padding-bottom: 20px;
+    }
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+
+    }
+
+    .time-sence {}
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        /* margin-right: 30px; */
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+
+    /* =========================================================
+  //////////////  UpComing html Css Start////////////////
+  ======================================================== */
+    /* upcoming banner -part start */
+
+
+    .upcoming-banner {
+        display: flex;
+        width: 992px;
+        background-color: #161616;
+        padding: 55px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .upcoming-banner .upcoming-text {
+        width: 50%;
+    }
+
+    .upcoming-banner .upcoming-text .section-title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+
+    .upcoming-banner .upcoming-text .section-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .upcoming-banner .upcoming-text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .upcoming-banner .upcoming-text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .upcoming-banner .img {
+        width: 40%;
+        padding-top: 77px;
+        padding-left: 75px;
+    }
+
+    .upcoming-banner .img img {
+        width: 100%;
+    }
+
+    /* upcoming-match-blog prat start */
+
+    #upcoming-match-blog {
+        padding: 130px 0;
+    }
+
+    .upcoming-match {
+        display: flex;
+
+    }
+
+
+
+    .upcoming-match .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 20px;
+
+
+    }
+
+    .upcoming-match .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .upcoming-match .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+
+
+    .upcoming-match .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .upcoming-match .all-group-match {}
+
+    .match-times {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .upcoming-match .all-group-match .match {
+        width: 230px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 24px;
+        text-align: center;
+        padding: 53px 0 40px 0;
+
+    }
+
+    .match-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+
+    .match-img img {
+        width: 40%;
+    }
+
+    .vs {
+        display: inline-block;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #161616;
+
+    }
+
+    .match-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .match-schedule {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4D4D4D;
+    }
+
+    .blog {
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .transfer {
+        width: 100px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {}
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+        margin-left: 10px;
+    }
+
+    .time-sence {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    /* =====================================================================
+/////////////////  All Group -part start//////////////
+====================================================================== */
+    /* all-group-part start */
+
+
+
+    .allgroup-banner {
+        display: flex;
+        width: 992px;
+        background-color: #161616;
+        padding: 55px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .allgroup-banner .allgroup-text {
+        width: 50%;
+    }
+
+    .allgroup-banner .allgroup-text .section-title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+
+    .allgroup-banner .allgroup-text .section-detail {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+    }
+
+    .allgroup-banner .allgroup-text .watch {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 26px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .allgroup-banner .allgroup-text .watch:hover {
+        color: #DD0000;
+        background-color: #FFFFFF;
+    }
+
+    .allgroup-banner .img {
+        width: 40%;
+        padding-top: 77px;
+        padding-left: 75px;
+    }
+
+    .allgroup-banner .img img {
+        width: 100%;
+    }
+
+    /* all-group-blog prat start */
+
+    #all-group-blog {
+        padding: 130px 0;
+    }
+
+    .all-group-button {
+        display: flex;
+
+    }
+
+
+
+    .all-group-button .all-batton {
+        width: 275px;
+        height: 312px;
+        background: #161616;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 30px 0;
+        margin-top: 20px;
+
+    }
+
+    .all-group-button .all-batton .batton {
+        width: 252px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        transition: .4s;
+    }
+
+    .all-group-button .all-batton .batton.active {
+        color: #FFFFFF;
+        background: #DD0000;
+    }
+
+    .all-group-button .all-batton .batton:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+    }
+
+    .all-group-button .all-group-match {}
+
+    .match-times {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .group {
+        border: 2px solid #E8E8E8;
+        border-radius: 5px;
+
+        width: 230px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+
+        margin-left: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .group-title {
+        background: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 8px 0;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .match-flog {
+        display: flex;
+        align-items: center;
+        background-color: #E8E8E8;
+        ;
+        /* background: #eeeee4; */
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .match-flog img {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .match-flog .country-name {
+        padding-left: 20px;
+
+    }
+
+    .match {
+        width: 300px;
+
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+
+        margin-left: 24px;
+        text-align: center;
+        padding: 53px 0 40px 0;
+
+    }
+
+    .match-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+
+    .match-img img {
+        width: 40%;
+    }
+
+    .vs {
+        display: inline-block;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #161616;
+
+    }
+
+    .match-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .match-schedule {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4D4D4D;
+    }
+
+    .blog {
+
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 24px;
+
+
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .transfer {
+        width: 100px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #161616;
+        border: 2px solid#161616;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 2px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        transition: .4s;
+
+    }
+
+    .transfer:hover {
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border: 2px solid#DD0000;
+    }
+
+    .transfer-live {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {}
+
+    .hours {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(22, 22, 22, 0.7);
+        margin-left: 10px;
+    }
+
+    .time-sence {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    /* goal-part start css*/
+    #goal-part {
+
+        height: 444px;
+        left: 0px;
+        top: 2090px;
+        background: #161616;
+    }
+
+    .goal {}
+
+    .goal-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 130px;
+    }
+
+    .hr {
+        text-align: center;
+        width: 920px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+
+    }
+
+    .link ul li {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .link ul li a {
+
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'liga'off;
+        color: #B9B9B9;
+        margin-left: 40px;
+    }
+
+    .goal-live {
+        margin-left: 0px;
+    }
+
+    .goal-icon {
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+
+    /* end */
 }
